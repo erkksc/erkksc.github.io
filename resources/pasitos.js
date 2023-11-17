@@ -57,7 +57,7 @@ var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px
 '</div>' +
 '<div class="modal fade" id="#ID#" role="dialog">' +
     '<div class="modal-dialog modal-lg" >' +
-      '<div class="modal-content" style="width:1000px">' +
+      '<div class="modal-content" style="width:700px">' +
         '<div class="modal-header">' +
           '<h4 class="modal-title">#TITLE#</h4>' +
         '</div>' +
@@ -65,7 +65,7 @@ var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px
           '<p>#COMMENT# <small>#DATE#</small></p>' +
         '</div>' +
         '<div class="modal-trigger">' +
-            '<video preload="auto" controls="controls" poster="" width="998">' +
+            '<video preload="auto" controls="controls" poster="" width="698">' +
               '<source src="#VIDEOLINK#" type="video/mp4">' +
               '<source src="#VIDEOLINK#" type="video/webm">' +
             '</video>' +

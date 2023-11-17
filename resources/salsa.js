@@ -15,6 +15,9 @@ var stepsLibres = [
  {id:"ope7", title: "Alza tu copa!",
   comment: "Copa con brazos casi en corte de manga suelta tu izq y lanza su mano hacia abajo, y cambia de mano su der y con tu izq la lanzas hacia arriba. Y ya 123 + ONDA (nov13david)",
   imagelink:"resources/img/copa.png", videolink: "videos/salsa/2018/", date:"David 11/2013", color:"white" },
+ {id:"ope8", title: "Doble check",
+  comment: "Check con ambas manos",
+  imagelink:"resources/img/docheck.jpg", videolink: "videos/docheck.mp4", date:"David 11/2013", color:"white" },
 ];
 
 // Cool
@@ -105,7 +108,7 @@ var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px
 '</div>' +
 '<div class="modal fade" id="#ID#" role="dialog">' +
     '<div class="modal-dialog modal-lg" >' +
-      '<div class="modal-content" style="width:1000px">' +
+      '<div class="modal-content" style="width:700px">' +
         '<div class="modal-header">' +
           '<h4 class="modal-title">#TITLE#</h4>' +
         '</div>' +
@@ -113,7 +116,7 @@ var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px
           '<p>#COMMENT# <small>#DATE#</small></p>' +
         '</div>' +
         '<div class="modal-trigger">' +
-            '<video preload="auto" controls="controls" poster="" width="998">' +
+            '<video preload="auto" controls="controls" poster="" width="698">' +
               '<source src="#VIDEOLINK#" type="video/mp4">' +
               '<source src="#VIDEOLINK#" type="video/webm">' +
             '</video>' +

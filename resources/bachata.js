@@ -35,7 +35,12 @@ var stepsNew = [
   {id:"new10", title: "148. Cabeceo",
    comment: "Suave y llevala con tu cuerpo",
    imagelink:"resources/img/cabeceo.jpg", videolink: "videos/cabeceo.mp4", date:"Yo", color:"yellowgreen" },
-
+  {id:"new11", title: "El paraguas",
+   comment: "Peinala y peinate",
+   imagelink:"resources/img/paraguas.jpg", videolink: "videos/paraguas.mp4", date:"Yo", color:"yellowgreen" },
+  {id:"new12", title: "El precipicio",
+   comment: "",
+   imagelink:"resources/img/precipicio.jpg", videolink: "videos/precipicio.mp4", date:"Yo", color:"yellowgreen" },
 ]
 
 var coolSteps = [
@@ -76,9 +81,6 @@ var modernSteps = [
  {id:"mod9", title: "123. La abuela brazo entrelazado",
   comment: "Con tu izq, levanta su brazo arriba, dale media vuelta y los dos mirais hacia delante. Le entrelazas como una abuela y haceis ambos una onda hacia delante. Recuerda al subir tirarle del brazo para que suba mejor. Brazo por arriba para ponerla a tu lado y onda conjunta (SBK2019)",
   imagelink:"resources/img/abuela.jpg", videolink: "videos/bachata/2019/", date:" 01/2019", color:"green" },
- {id:"mod10", title: "122. Cintura redondeada ambos atrás",
-  comment: "Lanza su brazo pero no la acompañes, tu izq va a su cadera para ponerla delate tuya. Medio básico. Abre pierna y deja el pie punteando. Con der y tu pierna marca cintura redondeada completa (360 por delante tambíen). Mira hacia el lado y manten pegada su izq a tu cuerpo y onda juntos.",
-  imagelink:"resources/img/circulo.jpg", videolink: "videos/bachata/2019/victor012019.mp4", date:"Victor 01/2019", color:"white" },
  {id:"mod11", title: "121. Paseo adelante sensual",
   comment: "De las dos manos la traes y la pones para pasear. Recuerda acariciar desde su hombro a su espalda. Y vais lentamente 1 y dos...",
   imagelink:"resources/img/acompana.jpg", videolink: "videos/bachata/2019/black032019.mp4", date:"Black Guy 03/2019", color:"white" },
@@ -167,7 +169,7 @@ var stepsPortesycaidas = [
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px; float:left; padding: 7px; background: #COLOR#">' +
+var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px; float:left; padding: 7px; background: #COLOR# ">' +
   '<a href="#" class="btn" data-toggle="modal" data-target="##ID#"><img class="card-img-top" src="#IMAGELINK#"></a>' +
   '<div class="card-body">' +
     '<h6 class="card-title">#TITLE#</h6>' +
@@ -176,7 +178,7 @@ var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px
 '</div>' +
 '<div class="modal fade" id="#ID#" role="dialog">' +
     '<div class="modal-dialog modal-lg" >' +
-      '<div class="modal-content" style="width:1000px">' +
+      '<div class="modal-content" style="width:700px">' +
         '<div class="modal-header">' +
           '<h4 class="modal-title">#TITLE#</h4>' +
         '</div>' +
@@ -184,7 +186,7 @@ var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px
           '<p>#COMMENT# <small>#DATE#</small></p>' +
         '</div>' +
         '<div class="modal-trigger">' +
-            '<video preload="auto" controls="controls" poster="" width="998">' +
+            '<video preload="auto" controls="controls" poster="" width="698">' +
               '<source src="#VIDEOLINK#" type="video/mp4">' +
               '<source src="#VIDEOLINK#" type="video/webm">' +
             '</video>' +
