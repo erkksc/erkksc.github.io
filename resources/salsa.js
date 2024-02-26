@@ -6,9 +6,6 @@ var stepsLibres = [
  {id:"n1", title: "New tower Noe",
   comment: "Paseala, entras y dejas que su mano caiga desde tu hombro hasta tu mano y le das 180 grados de giro, la paras y pasa tú",
   imagelink:"resources/img/tower.png", videolink: "videos/tower.mp4", date:"Noe 10/2021", color:"white" },
- {id:"n2", title: "Rolled to magia 1 o Nuca",
-  comment: "Cambia mano, cross con vuelta lanza y magia, cross y brazo nuca (oct14david). O version acabada en gorrito en su nuca (Noe 2022)",
-  imagelink:"resources/img/magia.png", videolink: "videos/salsa/2014/", date:"David 10/2014", color:"white" },
  {id:"n4", title: "El parón",
   comment: "",
   imagelink:"resources/img/paron.jpg", videolink: "videos/paron.mp4", date:"Noe 04/2022", color:"yellowgreen" },
@@ -18,6 +15,9 @@ var stepsLibres = [
  {id:"ope8", title: "Doble check",
   comment: "Check con ambas manos",
   imagelink:"resources/img/docheck.jpg", videolink: "videos/docheck.mp4", date:"David 11/2013", color:"white" },
+ {id:"ope9", title: "Molino Valdi",
+  comment: "Check con ambas manos",
+  imagelink:"resources/img/molinovaldi.jpg", videolink: "videos/molinovaldi.mp4", date:"Valdi 11/2024", color:"white" },
 ];
 
 // Cool
@@ -66,6 +66,9 @@ var stepsClasicosSalsa =[
  {id:"ope9", title: "Estoque",
   comment: "De vuelta al hombro mete mano espalda y toque (no directo) CROSS DE CADERAS EXTENDIDAS (oct14david) U HOMBROS (ene13)",
   imagelink:"resources/img/estoque.png", videolink: "videos/salsa/2014/", date:"David 10/2014", color:"white" },
+ {id:"clasicos1", title: "Rolled to magia 1 o Nuca",
+  comment: "Cambia mano, cross con vuelta lanza y magia, cross y brazo nuca (oct14david). O version acabada en gorrito en su nuca (Noe 2022)",
+  imagelink:"resources/img/magia.png", videolink: "videos/salsa/2014/", date:"David 10/2014", color:"white" },
 ];
 
 // Básicos
