@@ -2,36 +2,49 @@
 // NO OLVIDAR ID UNICO
 // News
 var stepsNew = [
- {id:"new4", title: "143. Adrikiu engañon",
-  comment: "Dar yo también una vuelta a la vez que ella",
-  imagelink:"resources/img/engañon.jpg", videolink: "videos/engañon.mp4", date:"Noe", color:"white" },
+
  {id:"new6", title: "144. Coditos Rachel",
   comment: "",
   imagelink:"resources/img/coditos.jpg", videolink: "videos/coditos.mp4", date:"Yo", color:"white" },
  {id:"new8", title: "146. Paseillo en circulo",
   comment: "Al dar tu vuelta pegale un tiron para indicar que ande. Al finalizar termina con vuelta tuya hacia la derecha (no está en el video)",
   imagelink:"resources/img/lacuerda.jpg", videolink: "videos/lacuerda.mp4", date:"Valdi 10/2023", color:"white" },
- {id:"new9", title: "147. Trasanlantico",
+ {id:"new9", title: "147. Trans Atlantico Extd / Lazito",
   comment: "En 7 tira de ella para sacarla",
   imagelink:"resources/img/trasanlantico.jpg", videolink: "videos/transanlantico.mp4", date:"Yo", color:"white" },
- {id:"new10", title: "148. Cabeceo",
+ {id:"new10", title: "148. Cabeceo con lavadora / Hombros S",
   comment: "Suave y llevala con tu cuerpo",
   imagelink:"resources/img/cabeceo.jpg", videolink: "videos/cabeceo.mp4", date:"Yo", color:"yellowgreen" },
- {id:"new11", title: "149. El paraguas",
-  comment: "Peinala y peinate",
-  imagelink:"resources/img/paraguas.jpg", videolink: "videos/paraguas.mp4", date:"Yo", color:"yellowgreen" },
- {id:"new12", title: "150. El precipicio",
-  comment: "",
-  imagelink:"resources/img/precipicio.jpg", videolink: "videos/precipicio.mp4", date:"Yo", color:"yellowgreen" },
- {id:"new13", title: "151. Porte Fran Agresivo",
-  comment: "",
-  imagelink:"resources/img/portefranagresivo.jpg", videolink: "videos/portefranagresivo.mp4", date:"Yo", color:"white" },
  {id:"new14", title: "152. Caderitas Dominicanas",
   comment: "",
   imagelink:"resources/img/caderitasdominicanas.jpg", videolink: "videos/caderitasdominicanas.mp4", date:"Yo", color:"white" },
- {id:"new15", title: "153. Rular brazos",
+ {id:"new15", title: "153. Rular brazos Ronald",
   comment: "Coger sus brazos sin cruzar los tuyos ni los suyos por las muñecas y como si rularas para ti mismo",
-  imagelink:"resources/img/.jpg", videolink: "videos/.mp4", date:"Yo", color:"white" },
+  imagelink:"resources/img/rular.jpg", videolink: "videos/.mp4", date:"Yo", color:"white" },
+ {id:"cool160", title: "160. El Zarandeo",
+  comment: "Zarandeo a izquierda y derecha, fíjate en la colocación del brazo",
+  imagelink:"resources/img/elzarandeo.jpg", videolink: "videos/elzarandeo.mp4", date:"BachataSpain", color:"white" },
+ {id:"cool161", title: "161. Paso Madrid / Brazo Arriba Style",
+  comment: "Paso Madrid normal. O paso Madrid llevando el brazo de la chica al cuello y dandole una vuelta alrededor de él",
+  imagelink:"resources/img/.jpg", videolink: "videos/.mp4", date:"BachataSpain", color:"white" },
+ {id:"cool162", title: "162. Tronador",
+  comment: "",
+  imagelink:"resources/img/tronador.jpg", videolink: "videos/tronador.mp4", date:"2024", color:"white" },
+ {id:"cool163", title: "163. Templanza",
+  comment: "Cuando la acercas su brazo va por debajo a tus costillas. FALTA EL FINAL: mete rodilla y mientras le marcas con tu mano en su cadera su cadereo sacas tu pierna para chocarle la cadera y que lo haga al otro lado. Al final vuelves a meter tu rodilla entre sus piernas y le haces la S para subir",
+  imagelink:"resources/img/templanza.jpg", videolink: "videos/templanza.mp4", date:"2024", color:"white" },
+ {id:"cool164", title: "164. Cinturon",
+  comment: "",
+  imagelink:"resources/img/cinturon.jpg", videolink: "videos/cinturon.mp4", date:"2024", color:"white" },
+ {id:"cool166", title: "166. Rompebrazo",
+  comment: "Dile que no y rompe con la derecha",
+  imagelink:"resources/img/rompebrazo.jpg", videolink: "videos/rompebrazo.mp4", date:"2024", color:"white" },
+ {id:"cool167", title: "167. Perreo en linea",
+  comment: "",
+  imagelink:"resources/img/perreoenlinea.jpg", videolink: "videos/perreoenlinea.mp4", date:"2024", color:"white" },
+ {id:"cool168", title: "168. Slide famoso",
+  comment: "",
+  imagelink:"resources/img/slidefamoso.jpg", videolink: "videos/slidefamoso.mp4", date:"2024", color:"white" },
 ]
 
 
@@ -52,12 +65,9 @@ var coolSteps = [
   {id:"coo6", title: "133.Rompe Ronald",
     comment: "Entra con 123 y te quedas arriba y la metes de hombro y costilla. Luego de nuevo hacia el otro lado y repetir con pierna. Al final un reggetoneo haciendo circulos con el puño debajo de sus costillas",
     imagelink:"resources/img/costilla.jpg", videolink: "videos/ronron.mp4", date:"Ronald y Alba 01/2020", color:"white" },
-  {id:"coo132", title: "132.Abdel Leti ola",
-    comment: "Mano contraria y se la pones en el cuello. Le haces una tontería y la ola, luego metes la mano (cuidado sarcillos o pelo) por su cuello y le das la vuelta al hombro",
-    imagelink:"resources/img/abdelola.jpg", videolink: "videos/olaabdel.mp4", date:"Abdel Leti 10/2018", color:"orange" },
-  {id:"cool142", title: "142. Adrikiu media vuelta",
-    comment: "Súbele el codo con la derecha para luego cogerselo bien",
-    imagelink:"resources/img/adrikiumediavuelta.jpg", videolink: "videos/adrikiumediavuelta.mp4", date:"Noe", color:"white" },
+  {id:"cool143", title: "143. Adrikiu engañon",
+    comment: "Dar yo también una vuelta a la vez que ella",
+    imagelink:"resources/img/engañon.jpg", videolink: "videos/engañon.mp4", date:"Noe", color:"white" },
 ]
 
 // Separados
@@ -71,15 +81,12 @@ var modernSteps = [
  {id:"mod3", title: "129. Paso libre variante Fran Energy",
     comment: "Cogela de las dos manos. Pisa con punta adelate y con el mismo pie otra vez adelante al mismo lado y luego chachacha y repetir con el otro. Tambien se puede hacer variante mirando hacia delante más facil de comprender ya que es el tipico paso chachacha",
     imagelink:"resources/img/estirado.jpg", videolink: "videos/bachata/2014/fran-052014.mp4", date:" 03/2019", color:"white" },
- {id:"mod6", title: "126. El engaño de Noe",
-  comment: "Mete el codo y cambia la mano, te pasas al otro lado la empujas de la cadera y al separaros la coges de la muñeca y os juntais de nuevo",
-  imagelink:"resources/img/enganoe.jpg", videolink: "videos/bachata/2015/noe021015.mp4", date:"Noe 01/2015", color:"white" },
  {id:"mod9", title: "123. La abuela brazo entrelazado",
-  comment: "Con tu izq, levanta su brazo arriba, dale media vuelta y los dos mirais hacia delante. Le entrelazas como una abuela y haceis ambos una onda hacia delante. Recuerda al subir tirarle del brazo para que suba mejor. Brazo por arriba para ponerla a tu lado y onda conjunta (SBK2019)",
-  imagelink:"resources/img/abuela.jpg", videolink: "videos/bachata/2019/", date:" 01/2019", color:"green" },
- {id:"mod11", title: "121. Paseo adelante sensual",
-  comment: "De las dos manos la traes y la pones para pasear. Recuerda acariciar desde su hombro a su espalda. Y vais lentamente 1 y dos...",
-  imagelink:"resources/img/acompana.jpg", videolink: "videos/bachata/2019/black032019.mp4", date:"Black Guy 03/2019", color:"white" },
+  comment: "Con tu izq, levanta su brazo arriba, dale media vuelta y los dos mirais hacia delante. Le entrelazas como una abuela y haceis ambos una onda hacia delante. Recuerda al subir tirarle del brazo para que suba mejor. Brazo por arriba para ponerla a tu lado y onda conjunta (SBK2019). Tambien podéis pasear hacia delante juntos como en el video",
+  imagelink:"resources/img/abuela.jpg", videolink: "videos/bachata/2019/black032019.mp4", date:" 01/2019", color:"green" },
+ {id:"mod12", title: "142. Adrikiu media vuelta",
+   comment: "Súbele el codo con la derecha para luego cogerselo bien",
+   imagelink:"resources/img/adrikiumediavuelta.jpg", videolink: "videos/adrikiumediavuelta.mp4", date:"Noe", color:"white" },
 ];
 
 // clasicosoldy
@@ -108,15 +115,9 @@ var clasicosSteps = [
 
 // Juntos
 var basicosSteps = [
- {id:"ju1", title: "113. Hombros y aperturón costal con caída + bocarriba",
- comment: "Hombro atras, atras adelante y la echas al lado(feb16), te la tiras encima, le dejas espacio y para que suba desde abajo pero baja con ella antes de subir para rebote y ayudarla. Cuando esté apoyada en ti puedes terminar tirándola hacia abajo en caida bocarriba.",
-  imagelink:"resources/img/aperturon.png", videolink: "videos/bachata/2016/victor022016.mp4", date:"Victor 02/2016", color:"white" },
  {id:"ju2", title: "112. Hombros redondeados + sentadilla con S /La S parados",
   comment: "Mueve hombros (derizqderiz) der fuerte y abajo, súbela con mano y rodilla (oct13noe) (sep14noe), o 2 veces rodilla pequeña, rodilla grande (jul15victor). AL SALIR SUBE TU BRAZO DERECHO <br> 1234 y vuelta y entra y coge su brazo izquierdo. Levanta tu brazo derecho y le haces en el omóplato una S. Mete rodilla, saca rodilla y S de salida levantando brazo de nuevo. (Victor 05/2018)",
   imagelink:"resources/img/hombros.png", videolink: "videos/bachata/2015/victor072015.mp4", date:"Victor 07/2015", color:"white" },
- {id:"ju3", title: "111. Torseo hombro cadera Bersy",
-  comment: "Atacala y hombro cadera torseados",
-  imagelink:"resources/img/torseohombro.png", videolink: "videos/bachata/2015/noe021015.mp4", date:"Noe 02/2015", color:"white" },
  {id:"ju4", title: "110. Brazo adelante + peinala desde al lado",
   comment: "Enrrolla y la pones a tu lado. Mientras haceis balanceo atrás y adelante haz que estire su brazo y os SENTAIS juntos (bajala y estira tu pierna) y se lo suba hasta detrás de su cuello. Pones tu mano sobre su cuello y que pase su cabeza por debajo",
   imagelink:"resources/img/haciadelante.jpg", videolink: "", date:"Muevete 07/2017", color:"white" },
@@ -125,7 +126,7 @@ var basicosSteps = [
   imagelink:"resources/img/torsorodilla.jpg", videolink: "videos/bachata/2013/noe112013.mp4", date:"Noe 11/2013", color:"white" }
 ]
 
-// Portes y caidas
+// Portes y caidas USAR IA PARA SUSTITUIR IDs y Nombres. O usar title de id
 var stepsPortesycaidas = [
   {id:"pc0", title: "106. caida Raquelilla",
     comment: "La metes hacia delante con los brazos y subes un poco ella da media vuelta y cae. Lueg al subir da un paso y caida otra vez",
@@ -140,11 +141,20 @@ var stepsPortesycaidas = [
    comment: "Porte doble: Sus empeines deben ir a tu rodilla. No la subas con los dedos eso hace daño. Su pierna izquierda va primero y luego la otra. Porte cuello: No claves dedos en el cuello. Fíja su cabeza con el dedo gordo. Versión fácil ayudate con mano izquierda en su hombro",
    imagelink:"resources/img/portesabina.jpg", videolink: "videos/portessabina.mp4", date:"Yo", color:"yellowgreen" },
   {id:"pc4", title: "103. Porté volada hacia arriba",
-   comment: "Open y en 4 flexionar rodillas y subirla, su brazo debe estar extendido para q tu puedas usarlo como apoyo para subirla mejor y ella de rodillas sobre tu cadera, media vuelta y soltarla",
+   comment: "Usa tu antebrazo en puño para subirla.  y ella de rodillas sobre tu cadera",
    imagelink:"resources/img/volada.jpg", videolink: "videos/bachata/2013/", date:"None 11/2013", color:"yellow" },
   {id:"pc5", title: "145. Porte Sorpresa",
    comment: "Hazle una zancadilla y con tu pierna izquierda la aupas para que se siente en tu rodilla. Te agachas y ella se sienta en tu rodilla con las piernas cruzadas (avanzado ella echa el cuerpo hacia atrás o le tiras una mano hacia atrás para que lo haga). La aupas en la salida con tu rodilla para que caiga sobre pie izq y su der detrás",
    imagelink:"resources/img/portesorpresa.jpg", videolink: "videos/portesorpresa.mp4", date:"Yo", color:"white" },
+  {id:"pc7", title: "146. Porte Niña pequeña",
+   comment: "Mirar con Irene. Coger de la cintura. Ella debe hacer fuerza con sus brazos extendidos en tus hombros",
+   imagelink:"resources/img/.jpg", videolink: "videos/.mp4", date:"Yo", color:"white" },
+  {id:"pc8", title: "147. Porte vuelta normal con un brazo.",
+   comment: "Mirar con ?. Ella debe hacer fuerza en tu brazo izquierdo para compensar",
+   imagelink:"resources/img/.jpg", videolink: "videos/.mp4", date:"Yo", color:"white" },
+  {id:"pc9", title: "148. Porte Horcajadas",
+   comment: "",
+   imagelink:"resources/img/horcajadas.jpg", videolink: "videos/horcajadas.mp4", date:"Yo", color:"white" },
 ]
 
 // ----------------------------------------------------------------------------------------------------------------------
