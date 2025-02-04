@@ -2,10 +2,6 @@
 // NO OLVIDAR ID UNICO
 // News
 var stepsNew = [
-
- {id:"new6", title: "144. Coditos Rachel",
-  comment: "",
-  imagelink:"resources/img/coditos.jpg", videolink: "videos/coditos.mp4", date:"Yo", color:"white" },
  {id:"new8", title: "146. Paseillo en circulo",
   comment: "Al dar tu vuelta pegale un tiron para indicar que ande. Al finalizar termina con vuelta tuya hacia la derecha (no está en el video)",
   imagelink:"resources/img/lacuerda.jpg", videolink: "videos/lacuerda.mp4", date:"Valdi 10/2023", color:"white" },
@@ -26,46 +22,57 @@ var stepsNew = [
   imagelink:"resources/img/elzarandeo.jpg", videolink: "videos/elzarandeo.mp4", date:"BachataSpain", color:"white" },
  {id:"cool161", title: "161. Paso Madrid / Brazo Arriba Style",
   comment: "Paso Madrid normal. O paso Madrid llevando el brazo de la chica al cuello y dandole una vuelta alrededor de él",
-  imagelink:"resources/img/.jpg", videolink: "videos/.mp4", date:"BachataSpain", color:"white" },
+  imagelink:"resources/img/madrid.jpg", videolink: "videos/.mp4", date:"BachataSpain", color:"white" },
  {id:"cool162", title: "162. Tronador",
   comment: "",
   imagelink:"resources/img/tronador.jpg", videolink: "videos/tronador.mp4", date:"2024", color:"white" },
  {id:"cool163", title: "163. Templanza",
-  comment: "Cuando la acercas su brazo va por debajo a tus costillas. FALTA EL FINAL: mete rodilla y mientras le marcas con tu mano en su cadera su cadereo sacas tu pierna para chocarle la cadera y que lo haga al otro lado. Al final vuelves a meter tu rodilla entre sus piernas y le haces la S para subir",
+  comment: "Cuando la acercas su brazo va por debajo a tus costillas. FALTA EL FINAL: mete rodilla y mientras le marcas con tu mano en su cadera su cadereo sacas tu pierna para chocarle la cadera y que lo haga al otro lado. Al final vuelves a meter tu rodilla entre sus piernas y le haces la S para subir. APLICAR TENSIÓN en la espalda de la chica para que siga con el circulo de la cadera",
   imagelink:"resources/img/templanza.jpg", videolink: "videos/templanza.mp4", date:"2024", color:"white" },
  {id:"cool164", title: "164. Cinturon",
   comment: "",
   imagelink:"resources/img/cinturon.jpg", videolink: "videos/cinturon.mp4", date:"2024", color:"white" },
- {id:"cool166", title: "166. Rompebrazo",
+ {id:"cool166", title: "166. Magia Rompebrazo",
   comment: "Dile que no y rompe con la derecha",
-  imagelink:"resources/img/rompebrazo.jpg", videolink: "videos/rompebrazo.mp4", date:"2024", color:"white" },
- {id:"cool167", title: "167. Perreo en linea",
+  imagelink:"resources/img/magina.jpg", videolink: "videos/rompebrazo.mp4", date:"2024", color:"white" },
+ {id:"cool167", title: "167. Palmas Arriba Baja / Atrás",
+  comment: "Ponla de espaldas, sube sus brazos hasta arriba e indicale que baje. También se puede hacer de espaldas ambos",
+  imagelink:"resources/img/palmas.jpg", videolink: "videos/palmas.mp4", date:"2024", color:"white" },
+ {id:"cool168", title: "168. La parada",
   comment: "",
-  imagelink:"resources/img/perreoenlinea.jpg", videolink: "videos/perreoenlinea.mp4", date:"2024", color:"white" },
- {id:"cool168", title: "168. Slide famoso",
-  comment: "",
-  imagelink:"resources/img/slidefamoso.jpg", videolink: "videos/slidefamoso.mp4", date:"2024", color:"white" },
+  imagelink:"resources/img/abrazo.jpg", videolink: "videos/abrazo.mp4", date:"2024", color:"white" },
+  {id:"cool170", title: "Cachondeo",
+     comment: "<p><b>Lanzamiento de brazos desde rodilla</b></p>" +
+              "<p><b>Pasito libre Irene con Saltito</b></p>" +
+              "<p><b>Pedir por favor que vaya al cuello con ambas manos</b></p>" +
+              "<p><b>Ronald pasitos libres</b></p>" +
+              "<p><b>Faltan los de lado: Girar su cadera 2 veces, ayudala a subir y reverencia con la mano, que suba sola, empuja con las manos para que pase hacia atrás y luego vuelva</b></p>" +
+              "<p><b>Faltan los de la hucha: con los brazos cambiados la acercas y haces que se abrace ella misma (mirar en mi)</b></p>",
+     imagelink:"resources/img/.jpg", videolink: "videos/.mp4", date:"2024", color:"white" },
 ]
 
 
 
 var coolSteps = [
-  {id:"coo0", title: "139.Empuja/Atraela Vacileo",
+  {id:"cool100", title: "144. Coditos Rachel",
+   comment: "",
+   imagelink:"resources/img/coditos.jpg", videolink: "videos/coditos.mp4", date:"Yo", color:"white" },
+  {id:"cool101", title: "139.Empuja/Atraela Vacileo",
    comment: "Pone la mano en tu pecho y anda hacia delante empujándola con el pecho (y empujándola en la barriga o la cadera) y luego que te vacile ella mientras vas hacia atrás. Al ir hacia atrás DATE CON EL PUÑO EN EL CORAZÓN vacileo",
    imagelink:"resources/img/atraer.jpg", videolink: "videos/bachata/2018/", date:"Yo", color:"white" },
-  {id:"coo1", title: "138.Hombrito desde atras",
+  {id:"cool102", title: "138.Hombrito desde atras",
     comment: "Con tu mano en su hobro usa tu pecho para marcar. Finaliza moviendola en redondo",
     imagelink:"resources/img/hombritoatras.jpg", videolink: "videos/hombritoatras.mp4", date:"Youtube 01/2020", color:"white" },
-  {id:"coo3", title: "136.Lanzabrazo perreo",
-    comment: "Juntate pero sin pegarte y reggetoneo con el pie y la cadera, usa mano rap y pie medio giro. Estira la mano como si fueras a coger algo y te lo traes",
+  {id:"cool103", title: "136.Perreo: lanzabrazo / atrás",
+    comment: "Juntate pero sin pegarte y reggetoneo con el pie y la cadera, usa mano rap y pie medio giro. Estira la mano como si fueras a coger algo y te lo traes. O perreo desde atrás: ella va hacia un lado y tú al reverso",
     imagelink:"resources/img/reg.jpg", videolink: "videos/reggetoneo.mp4", date:"Yo 01/2020", color:"white" },
-  {id:"coo5", title: "134.Sensualidad bachatera subre brazos",
+  {id:"cool104", title: "134.Sensualidad bachatera subre brazos",
     comment: "Lentamente y sensualmente, levanta sus brazos, bajalos hasta sus caderas levantalos por ellas y bajalos y vuelvelos a subir, te los pones en el cuello y sacas la cabeza por el lado",
     imagelink:"resources/img/sensualidadbach.jpg", videolink: "videos/bachata/2019/adri012019.mp4", date:"Adri 01/2019", color:"white" },
-  {id:"coo6", title: "133.Rompe Ronald",
+  {id:"cool105", title: "133.Rompe Ronald",
     comment: "Entra con 123 y te quedas arriba y la metes de hombro y costilla. Luego de nuevo hacia el otro lado y repetir con pierna. Al final un reggetoneo haciendo circulos con el puño debajo de sus costillas",
     imagelink:"resources/img/costilla.jpg", videolink: "videos/ronron.mp4", date:"Ronald y Alba 01/2020", color:"white" },
-  {id:"cool143", title: "143. Adrikiu engañon",
+  {id:"cool106", title: "143. Adrikiu engañon",
     comment: "Dar yo también una vuelta a la vez que ella",
     imagelink:"resources/img/engañon.jpg", videolink: "videos/engañon.mp4", date:"Noe", color:"white" },
 ]
@@ -100,11 +107,13 @@ var clasicosSteps = [
   {id:"cla3", title: "117. Yo delante",
    comment: "Métete delante y pasos laterales / hombros laterales tuyos / onda juntos",
    imagelink:"resources/img/atras.jpg", videolink: "videos/bachata/2018/", date:"Yo 05/2015", color:"white" },
+  {id:"cool171", title: "171. Reverencia / de Rodillas",
+   comment: "Reverencia normal de ella o arrodillarse para que ella la haga",
+   imagelink:"resources/img/reverencia.jpg", videolink: "videos/.mp4", date:"2024", color:"white" },
   {id:"cla4", title: "120. Fáciles",
      comment: "<p><b>SUBIDA DE BRAZO POR CADERA (ANA)</b></p><p>Con ella delante sube su brazo y que se roce desde la cadera hasta la cintura hacia arriba (en horizontal por encima del pecho desde el hombro hacia afuera</p>" +
               "<p><b>CARICIA DE PECHO</b></p><p>Desde detrás haz que se acaricie el pecho</p>" +
               "<p><b>ONDA LARGA </b></p><p>En 4 u 8 tiempos</p>" +
-              "<p><b>Paseillo juntos / separados con tango</b></p><p>Con los brazos bien separados + rondellan / Juntos + Cruce cada uno (Noe 11/2013)</p>" +
               "<p><b>Enchufa doble y peinado doble</b></p><p>Enchufla, enchufla hacia el otro lado con izq a su hombro, vuelta tuya y mano a su hombro para su movimiento de cuello,Agáchate bien (Simple: sep14bersy)</p>" +
               "<p><b>Limpia-Encera full</b></p><p>Brazos arriba y con vuestros brazos arriba movimientos, luego abres uno y el otro sucesivamente limpia-encera (feb15noeDos), al final dejas ambos abiertos y hacia adentro los lanzas para que ella los suba</p>" +
               "<p><b>Auto70 Caminada atrás+punteo </b></p><p>Auto 70… con lanzamiento de su brazo desde tu espalda al final (ene14noe) </p>" +
@@ -128,9 +137,6 @@ var basicosSteps = [
 
 // Portes y caidas USAR IA PARA SUSTITUIR IDs y Nombres. O usar title de id
 var stepsPortesycaidas = [
-  {id:"pc0", title: "106. caida Raquelilla",
-    comment: "La metes hacia delante con los brazos y subes un poco ella da media vuelta y cae. Lueg al subir da un paso y caida otra vez",
-    imagelink:"resources/img/porteraqueli.jpg", videolink: "videos/porteraqueli.mp4", date:"Yo 02/2022", color:"yellowgreen" },
   {id:"pc1", title: "101. Caída de lazo",
    comment: "Manos cambiadas, sobrero suya y al terminar tu mano izquierda sigue y se pone detrás de su cuello hasta su hombro izq. Tira del hombro hacia abajo para que caiga y baja y sube su cadera",
    imagelink:"resources/img/lazo.png", videolink: "videos/bachata/2013/", date:"None 11/2013", color:"white" },
