@@ -18,6 +18,10 @@ var stepsLibres = [
  {id:"ope9", title: "Molino Valdi",
   comment: "Check con ambas manos",
   imagelink:"resources/img/molinovaldi.jpg", videolink: "videos/molinovaldi.mp4", date:"Valdi 11/2024", color:"white" },
+ {id:"ope11", title: "Burrito noria",
+  comment: "",
+  imagelink:"resources/img/burrito-noria.jpg", videolink: "videos/burrito-noria.mp4", date:"Valdi 04/2025", color:"white" },
+
 ];
 
 // Cool
@@ -60,8 +64,8 @@ var stepsClasicosSalsa =[
  {id:"ope5", title: "Cross vuelta suya 2xsuya/Elvis",
   comment: "Cross con vuelta y doble suya o hacer Elvis (marz13)",
   imagelink:"resources/img/elvis.png", videolink: "videos/salsa/2018/", date:"David 03/2013", color:"white" },
- {id:"ope8", title: "Rueda conjunta",
-  comment: "Open, ve hacia ella y metes el brazo der por detrás doblado de forma q tu palma quede hacia afuera así llega más, y le das la vuelta hasta el 5 y giras sobre tu izq y cambias de mano sin soltarla (abr14david)",
+ {id:"ope88", title: "Rueda conjunta",
+  comment: "Dos variantes: La tipica juntas brazos y paseais en redondo puedes añadir movimiento de hombros. La cubana: le das una vuelta y le metes el codo y paseais en redondo. Puedes añadir que bajeis y subais",
   imagelink:"resources/img/rueda.png", videolink: "videos/salsa/2014/", date:"David 04/2014", color:"white" },
  {id:"ope9", title: "Estoque",
   comment: "De vuelta al hombro mete mano espalda y toque (no directo) CROSS DE CADERAS EXTENDIDAS (oct14david) U HOMBROS (ene13)",
@@ -116,7 +120,7 @@ var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px
           '<h4 class="modal-title">#TITLE#</h4>' +
         '</div>' +
         '<div class="modal-body">' +
-          '<p>#COMMENT# <small>#DATE#</small></p>' +
+          '<p>#COMMENT# <small></small></p>' +
         '</div>' +
         '<div class="modal-trigger">' +
             '<video preload="auto" controls="controls" poster="" width="698">' +

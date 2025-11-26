@@ -12,9 +12,9 @@ var cubananews = [
  {id:"cubananews6", title: "El paraguas",
   comment: "Peinala y peinate",
   imagelink:"resources/img/paraguas.jpg", videolink: "videos/paraguas.mp4", date:"Yo", color:"yellowgreen" },
- {id:"cubananews7", title: "Ventilador mano",
-  comment: "Peinala y peinate",
-  imagelink:"resources/img/ventilador.jpg", videolink: "videos/ventilador.mp4", date:"Yo", color:"yellowgreen" },
+ {id:"cubananews8", title: "El balsero",
+  comment: "",
+  imagelink:"resources/img/balsero.jpg", videolink: "videos/balsero.mp4", date:"Yo", color:"yellowgreen" },
 ];
 
 // Cool
@@ -51,7 +51,7 @@ var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px
           '<h4 class="modal-title">#TITLE#</h4>' +
         '</div>' +
         '<div class="modal-body">' +
-          '<p>#COMMENT# <small>#DATE#</small></p>' +
+          '<p>#COMMENT# <small></small></p>' +
         '</div>' +
         '<div class="modal-trigger">' +
             '<video preload="auto" controls="controls" poster="" width="698">' +

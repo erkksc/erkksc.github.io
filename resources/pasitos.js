@@ -47,6 +47,9 @@ var stepsbachata = [
   {id:"pbachata1", title: "Urbachata",
     comment: "",
     imagelink:"resources/img/urbachata.jpg", videolink: "videos/urbachata.mp4", date:"Yo 01/2021", color:"yellowgreen" },
+  {id:"pbachata2", title: "Pasito Yopi 3 punteos",
+    comment: "",
+    imagelink:"resources/img/urbachata.jpg", videolink: "videos/urbachata.mp4", date:"Yo 01/2021", color:"yellowgreen" },
 ];
 
 // ----------------------------------------------------------------------------------------------------------------------
@@ -65,7 +68,7 @@ var cards_html = '<div class="card" style="width:9rem; height:11rem;  margin:5px
           '<h4 class="modal-title">#TITLE#</h4>' +
         '</div>' +
         '<div class="modal-body">' +
-          '<p>#COMMENT# <small>#DATE#</small></p>' +
+          '<p>#COMMENT# <small></small></p>' +
         '</div>' +
         '<div class="modal-trigger">' +
             '<video preload="auto" controls="controls" poster="" width="698">' +
