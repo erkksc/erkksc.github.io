@@ -38,9 +38,6 @@ var stepsurban = [
   {id:"pasitosn30", title: "Pistolas Alba",
     comment: "Pon las manos como en una moto y al retraerlas gira la muñeca",
     imagelink:"resources/img/albapisto.JPG", videolink: "videos/albapaso.mp4", date:"Yo 03/2021", color:"yellowgreen" },
-  {id:"pasitosn31", title: "Reventon",
-    comment: "Primero baja luego junta las manos y por último pega un caderazo",
-    imagelink:"resources/img/reventon.jpg", videolink: "videos/reventon.mp4", date:"Yo 03/2021", color:"yellowgreen" },
 ];
 
 var stepsbachata = [
